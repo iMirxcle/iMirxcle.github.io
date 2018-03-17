@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*		inline: no width*/
+
+        label {
+            width: 100px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" method='get'>
+        <label for="">Username</label>
+        <input type="text" name='username'> <br>
+        <label for="">Password</label>
+        <input type="password" name='password'><br>
+        <input type="radio" name='food' value='pizza'>pizza
+        <input type="radio" name='food' value='apple'>apple
+        <input type="radio" name='food' value='orange'>orange
+
+        <br>
+        <input type="checkbox" name='sub' value='email'>subscribe email
+        <input type="checkbox" name='sub' value='news'>subscribe news
+        <br>
+
+        <textarea name="" id="" cols="100" rows="10"></textarea>
+        <br>
+        <select name="province" id="">
+		    <option value="Toronto">Toronto</option>
+		    <option value="Regina">Regina</option>
+		    <option value="London">London</option>
+		</select>
+        <br>
+        <meter min=1 max=6 value=4></meter>
+        <progress min=1 max=100 value=30></progress>
+        <br>
+        
+        <input type="number" name='anumber'>
+        <input type="search">
+        
+        <input type="color">
+        <input type="date">
+        <input type="range" min=1 max=6>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
+
