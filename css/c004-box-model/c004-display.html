@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        div {
+            border: solid;
+            width: 500px;
+            height: 50px
+        }
+        #inline {
+            border: solid red;
+        }
+        #inline-block {
+            border:solid blue;
+            display: inline-block;
+            width: 50px;
+            height: 20px;
+        }
+        #none {
+            display: none;
+            height: 50ox;
+        }
+        #invisible {
+            visibility: hidden;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Block</h1>
+    <ul>
+        <li>width == container's width</li>
+        <li>height == 0</li>
+        <li>can set dimension</li>
+    </ul>
+    <div></div>
+
+    <h1>Inline</h1>
+    <ul>
+        <li>width == 0 by default</li>
+        <li>height == font-size</li>
+        <li>can not set dimension</li>
+        <li>can put multiple inline elements in same line</li>
+    </ul>
+    <span id='inline'></span>
+    
+    <h1>Inline-block</h1>
+    <ul>
+        <li>No width and no height</li>
+        <li>can set dimensioin</li>
+    </ul>
+    <span id='inline-block'></span>
+    
+    <h1>none</h1>
+    <h3 id="none">some text</h3>
+    
+    <h1>invisible</h1>
+    <h3 id='invisible'>Invisible</h3>
+    
+    <footer>This is footer</footer>
+</body>
+</html>
